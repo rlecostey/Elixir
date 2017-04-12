@@ -228,3 +228,25 @@ En effet, si cette mise en forme est respectée pour l'ensemble des exemples ins
     Randomized with seed 882000
     
 ### Case Tests
+Pour ajouter de nouveaux cas de tests, il est nécessaire d'éditer le fichier `nom_du_projet_test.exs`, présent dans le répertoire  `test`.
+
+Ci-dessous quelques exemples de Case Test :
+    
+    test "create_deck makes 20 cards" do
+      deck_length = length(Cards.create_deck)
+      # Keyword `assert` is very important
+      # Literraly, assert means `make sure that`
+      assert deck_length == 20
+    end
+    
+    test "shuffling a deck randomizes it" do
+      deck = Cards.create_deck
+      # The keyword `assert` could be replace by the keyword `refute`
+      # assert deck != Cards.shuffle(deck)
+      refute deck == Cards.shuffle(deck)
+    end
+    
+> Attention : 
+le mot clé `assert` est trés important. 
+Littéralement, on pourrait le traduire par "Sois sûr que".
+Comme nous le montre le deuxième Case Test ci-dessus, il est également possible d'utiliser le mot clé `refute`, opposé au mot clé `assert`.
