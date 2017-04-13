@@ -46,6 +46,12 @@ Pour quitter le shell Elixir, tapper la commande `Ctrl + c`, deux fois.
 
 ### Programmation Orientée Objet VS Programmation Fonctionnelle
 
+#### Programmation Orientée Objet
+![Identicon Image](https://github.com/rlecostey/Elixir/blob/master/Basics/OOP-Cards.jpg)
+
+#### Programmation Fonctionnelle
+![Identicon Image](https://github.com/rlecostey/Elixir/blob/master/Basics/FP-Cards.jpg)
+
 ### Types de données
  * Integer => 1
  * Float => 1.0
