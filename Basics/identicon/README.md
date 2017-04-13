@@ -1,19 +1,12 @@
 # Identicon
 
-**TODO: Add description**
+### 1. Contexte
+Exercise réalisé dans le cadre d'une formation Exlixir/Phoenix.
 
-## Installation
+### 2. But du programme
+Le programme a pour but de réaliser un identicon, à partir d'une chaine de caractère, précisé lors de l'appel de la méthode main().
+Un identicon est un avatar qui représente un hash d'informations uniques.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [{:identicon, "~> 0.1.0"}]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+Exemple :
+![Identicon Image](https://github.com/rlecostey/Elixir/blob/master/Basics/identicon/banana.png)
 
