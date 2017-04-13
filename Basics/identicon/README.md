@@ -8,5 +8,6 @@ Le programme a pour but de réaliser un identicon, à partir d'une chaine de car
 Un identicon est un avatar qui représente un hash d'informations uniques.
 
 Exemple :
+
 ![Identicon Image](https://github.com/rlecostey/Elixir/blob/master/Basics/identicon/banana.png)
 
